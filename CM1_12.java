@@ -85,7 +85,7 @@ public class CM1_12 {
         System.out.println("Nama : " + nama);
         System.out.println("NIM  : " + nim);
 
-        System.out.println("\nMata Kuliah\t\t\tUTS\tUAS\tTugas\tNilai Akhir\tNilai Huruf\tStatus");
+        System.out.println("\nMata Kuliah \t\t\tUTS\tUAS\tTugas\tNilai Akhir\tNilai Huruf\tStatus");
         System.out.println("----------------------------------------------------------------------------------------------------");
         // Output Hasil Penilaian Matkul 1 & 2
         // Ini Menggunakan Format dan /t yaitu untuk Tab agar Tabel Rapi
@@ -104,7 +104,7 @@ public class CM1_12 {
         } else {
             System.out.println("Status Semester: TIDAK LULUS (Ada Matkul yang TIDAK LULUS)");
         }
-        // Untuk membedakan output yang rata-rata dan salah satu matkul tidak lulus, kalimat di output nya dibedakan agar lebih jelas
+        // Untuk membedakan output yang rata-rata dan salah satu matkul tidak lulus, kalimat di outputnya dibedakan agar lebih jelas
 
         sc.close();
     }
